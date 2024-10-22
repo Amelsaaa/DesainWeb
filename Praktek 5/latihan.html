@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Formulir</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        
+    </main>
+    <footer>
+        <form action="submit" name="registrasi" method="post">
+            <label for="namalengkap">Nama Lengkap</label>
+            <input type="text" name="namalengkap" id="namalengkap"><br>
+            <label for="tgllahir">Tanggal Lahir</label>
+            <input type="text" name="tgllahir" id="tgllahir" >
+            <label for="jeniskelamin">Jenis Kelamin</label>
+            <select name="jeniskelamin" id="jeniskelamin">
+                <option value="P">Perempuan</option>
+                <option value="L">Laki-Laki</option>
+            </select><br>
+            <label for="asalsekolah">Asal Sekolah</label>
+            <textarea cols="45" rows="1"></textarea>
+            <label for="kelas">Kelas</label>
+            <select name="kelas" id="kelas">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select><br>
+            <label for="alamat">Alamat</label>
+            <textarea cols="50" rows="1"></textarea><br>
+            <label for="notelp">No. Telepon</label>
+            <textarea cols="46" rows="1"></textarea><br>
+            <label for="namaorangtua">Nama Orang Tua</label>
+            <textarea cols="42" rows="1"></textarea><br>
+            <label for="pekerjaanorangtua">Pekerjaan Orang Tua</label>
+            <textarea cols="39" rows="1"></textarea><br>
+            <label for="programkursus">Program Kursus</label>
+            <textarea cols="43" rows="1"></textarea><br>
+            <label for="harikursus">Hari Kursus</label>
+            <input type="checkbox" name="harikursus" value="senin&kamis">Senin & Kamis
+            <input type="checkbox" name="harikursus" value="selasa&jumat">Selasa & Jumat
+            <input type="checkbox" name="harikursus" value="rabu&sabtu">Rabu & Sabtu
+            <br>
+            <label for="waktukursus">Waktu Kursus</label>
+            <input type="checkbox" name="waktukursus" value="1400-1530">14.00 - 15.30
+            <input type="checkbox" name="waktukursus" value="1600-1730">16.00 - 17.30
+            <input type="checkbox" name="waktukursus" value="1900-2030">19.00 - 20.30
+            <br>
+            <input type="button" value="Submit">
+        </form>
+    </footer>
+</body>
+</html>
