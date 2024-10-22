@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Lomba Olahraga</title>
+</head>
+<body>
+    <header>
+        <img src="https://eventkampus.com/data/artikel/2/olahraga-yang-sering-dijadikan-ajang-perlobaan.jpeg" width="1400" height="300">
+        <h2>Formulir Pendaftaran Peserta Lomba Cabang Olahraga Tingkat SD/SMP/SMA</h2>
+        <p><b>Nama Lomba :</b><em> Sports Week</em></p>
+        <p><b>Tanggal Lomba :</b> 15 Juni 2025</p>
+        <p><b>Tempat Lomba :</b> Stadiun Olahraga Kota</p>
+    </header>
+    <hr />
+    <main>
+
+    </main>
+    <footer>
+        <h4>Data Pribadi :</h4>
+        <form action="submit" name="register" method="post">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" name="nama" id="nama" placeholder="Isikan nama lengkap Anda di sini"><br>
+            <label for="tgllahir">Tanggal Lahir</label>
+            <input type="date" name="tgllahir" id="start" value="2024-01-01" min="2006-01-01" max="2014-01-01">
+            <label for="jeniskelamin">Jenis Kelamin</label>
+            <select name="jeniskelamin" id="jeniskelamin">
+                <option value="L">Laki-Laki</option>
+                <option value="P">Perempuan</option>
+            </select><br>
+            <label for="tinggibadan">Tinggi Badan</label>
+            <textarea name="tinggibadan" cols="3" rows="1"></textarea>cm
+            <label for="beratbadan">Berat Badan</label>
+            <textarea name="beratbadan" cols="3" rows="1"></textarea>cm<br>
+            <label for="asalsekolah">Asal Sekolah</label>
+            <textarea cols="30" rows="1" placeholder="Isikan asal sekolah Anda di sini"></textarea>
+            <label for="kelas">Kelas</label>
+            <select name="kelas" id="kelas">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select><br>
+            <label for="alamat">Alamat</label>
+            <textarea cols="47" rows="3" placeholder="Isikan alamat Anda di sini"></textarea><br>
+            <label for="notelp">Nomor Telepon</label>
+            <input type="text" name="notelp" id="notelp" placeholder="Isikan nomor telepon Anda di sini"><br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Isikan email Anda di sini"><br>
+            <br>
+            <label for="lomba"><b>Lomba yang Diikuti :</b></label><br>
+            <input type="checkbox" name="lomba" value="lombarenang">Lomba Renang <br>
+            <input type="checkbox" name="lomba" value="lombacatur">Lomba Catur <br>
+            <input type="checkbox" name="lomba" value="lombabersepeda">Lomba Bersepeda <br>
+            <input type="checkbox" name="lomba" value="lombaegrang">Lomba Egrang <br>
+            <input type="checkbox" name="lomba" value="lombalari">Lomba Lari <br>
+            <input type="checkbox" name="lomba" value="lombatenis">Lomba Tenis <br>
+            <input type="checkbox" name="lomba" value="lombapanahan">Lomba Panahan <br>
+            <input type="checkbox" name="lomba" value="lombamenembak">Lomba Menembak <br>
+            <input type="checkbox" name="lomba" value="lombabadminton">Lomba Badminton (Tunggal) <br>
+            <input type="checkbox" name="lomba" value="lombaiceskating">Lomba <em>Ice Skating</em> <br>
+            <input type="checkbox" name="lomba" value="lombasurfing">Lomba <em>Surfing</em> <br>
+            <br>
+            <label for="alasan"><b>Alasan Mengikuti Lomba</b></label>
+            <textarea cols="30" rows="3" placeholder="Isikan alasan Anda mengikuti lomba di sini"></textarea><br>
+            <br>
+            <input type="button" value="Submit">
+        </form>
+    </footer>
+</body>
+</html>
