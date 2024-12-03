@@ -1,0 +1,13 @@
+p{
+    color: green;
+    text-align: justify;
+     
+}
+a {
+    color: red;
+
+}
+footer,header {
+    background-color: purple;
+    font-size: 25px;
+}
