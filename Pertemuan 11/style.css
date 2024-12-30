@@ -1,0 +1,109 @@
+a{
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: chocolate;
+}
+
+a.smooth{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 1em 2em;
+    width: 10em;
+    border-radius: 2em;
+    color: wheat;
+    background-color: darkkhaki;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+a.smooth:hover, a.smooth:focus{
+    background-color: red;
+}
+
+p{
+    background-color: beige;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+table{
+    text-align: center;
+}
+
+.navbar{
+    background-color: bisque;
+    margin-left: 5px;
+}
+
+.navbar:hover{
+    background-color: brown;
+    transition: 2s;
+    box-shadow: 10px, 10px, 10px rosybrown;
+    border: 2x solid;
+}
+
+.text{
+    background-color: brown;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease;
+}
+
+@keyframes bounce{
+    40% { transform: translateY(-10px);}
+    60% { transform: translateY(-5px);}
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0);}
+}
+
+img {
+    border-radius: 50px;
+    animation: bounce 2s infinite;
+    margin-top: 20px;
+}
+
+@keyframes muter{
+    0%{rotate: 0deg;}
+    25%{rotate: 50deg;}
+    50%{rotate: 100deg;}
+    75%{rotate: 150deg;}
+    100%{rotate: 200deg;}
+}
+
+img.mel{
+    animation: muter;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.text:hover{
+    color: aliceblue;
+    background-color: orange;
+    transform: scale(1.05);
+}
+
+h4{
+    border: 1px brown solid;
+    text-align: center;
+    height: max-content;
+    font-size: 15px;
+    background-color: blanchedalmond;
+}
+
+h4:hover{
+    transform: scale(2);
+}
