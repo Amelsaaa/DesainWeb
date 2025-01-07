@@ -1,0 +1,30 @@
+@use 'nav';
+@use 'header';
+@use 'aside';
+
+$padding: 20px;
+
+.primer {
+    color: aside.$warnaPrimer;
+    background-color: nav.$warnaInverse;
+    border: header.$border;
+    padding: $padding;
+    width: aside.$maxSection*0.6;
+}
+
+.inverse-primer{
+    color: nav.$warnaInverse;
+    background-color: nav.$warnaSekunder;
+    border: header.$border;
+    height: aside.$maxSection*0.5;
+    text-align: center;
+    font-size: 19px;
+
+    table{
+        background-color: cornsilk;
+
+        thead{
+            background-color: firebrick;
+        }
+    }
+}

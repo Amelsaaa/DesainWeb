@@ -1,0 +1,30 @@
+$warnaSekunder: brown;
+$warnaInverse: rgb(192, 167, 55);
+
+nav {
+    text-align: right;
+    background-color: coral;
+
+    ul {
+        list-style: none;
+        padding: 5px;
+        margin: 0;
+
+        li{
+            display: inline-block;
+
+            a{
+                display: block;
+                text-decoration: none;
+                color: $warnaSekunder;
+                padding: 5px 10px;
+            } 
+
+            a:hover{
+                background-color: $warnaInverse;
+                color: crimson;
+            }
+            
+        }
+    }
+}

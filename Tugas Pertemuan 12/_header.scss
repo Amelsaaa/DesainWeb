@@ -1,0 +1,10 @@
+$border: 2px chocolate solid;
+
+header {
+    text-align: center;
+
+    h1{
+        border: $border;
+        background-color: burlywood;
+    }
+}

@@ -1,0 +1,60 @@
+nav {
+  text-align: right;
+  background-color: coral;
+}
+nav ul {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: brown;
+  padding: 5px 10px;
+}
+nav ul li a:hover {
+  background-color: rgb(192, 167, 55);
+  color: crimson;
+}
+
+header {
+  text-align: center;
+}
+header h1 {
+  border: 2px chocolate solid;
+  background-color: burlywood;
+}
+
+aside {
+  color: black;
+  width: 204.8px;
+}
+
+.primer {
+  color: black;
+  background-color: rgb(192, 167, 55);
+  border: 2px chocolate solid;
+  padding: 20px;
+  width: 614.4px;
+}
+
+.inverse-primer {
+  color: rgb(192, 167, 55);
+  background-color: brown;
+  border: 2px chocolate solid;
+  height: 512px;
+  text-align: center;
+  font-size: 19px;
+}
+.inverse-primer table {
+  background-color: cornsilk;
+}
+.inverse-primer table thead {
+  background-color: firebrick;
+}
+
+/*# sourceMappingURL=style.css.map */
